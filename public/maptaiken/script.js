@@ -182,7 +182,7 @@ require([
 
   async function updateCarousel(layerView, view) {
     const container = document.getElementById("card-carousel");
-    const targetIds = [5, 15, 33]; 
+    const targetIds = [5, 15, 33, 48, 50]; 
     const query = layerView.layer.createQuery();
     query.objectIds = targetIds;
     query.outFields = ["objectid", "field_25", "Message", "field_24", "Mabling", "collage"];
